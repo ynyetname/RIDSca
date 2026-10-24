@@ -1,0 +1,7 @@
+-r requirements.txt
+transformers==4.57.1
+sentence-transformers==5.1.1
+sentencepiece==0.2.1
+protobuf==6.32.1
+faster-whisper==1.2.0
+llama-cpp-python==0.3.16

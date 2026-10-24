@@ -1,0 +1,21 @@
+services:
+  ridsca:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      RIDSCA_MODE: ${RIDSCA_MODE:-local}
+      RIDSCA_THREADS: "2"
+    volumes:
+      - model-cache:/home/user/.cache/huggingface
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=256m
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    mem_limit: 12g
+    cpus: 2
+    pids_limit: 128
+volumes:
+  model-cache:

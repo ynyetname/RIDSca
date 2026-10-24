@@ -1,6 +1,6 @@
-# RIDSca — check before you trust
+# RIDSca 
 
-**Risk Intelligence & Detection for Scams · Team SCAMURAI · IIT Roorkee**
+**Risk Intelligence & Detection for Scams**
 
 A runnable Streamlit research prototype based on the RIDSca proposal. It connects
 messages, documents, QR payloads, voice, images, video and APK metadata into one

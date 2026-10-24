@@ -1,0 +1,56 @@
+{
+  "Qwen/Qwen3-4B-GGUF": {
+    "revision": "bc640142c66e1fdd12af0bd68f40445458f3869b",
+    "license": "apache-2.0",
+    "files": [
+      "Qwen3-4B-Q4_K_M.gguf",
+      "Qwen3-4B-Q5_0.gguf",
+      "Qwen3-4B-Q5_K_M.gguf",
+      "Qwen3-4B-Q6_K.gguf",
+      "Qwen3-4B-Q8_0.gguf"
+    ]
+  },
+  "intfloat/multilingual-e5-small": {
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "license": "mit",
+    "files": [
+      "model.safetensors"
+    ]
+  },
+  "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1": {
+    "revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "license": "apache-2.0",
+    "files": [
+      "model.safetensors"
+    ]
+  },
+  "protectai/deberta-v3-base-prompt-injection-v2": {
+    "revision": "90c9989b1a342275dd0d1a95aad283c04e075671",
+    "license": "apache-2.0",
+    "files": [
+      "model.safetensors"
+    ]
+  },
+  "dima806/ai_vs_real_image_detection": {
+    "revision": "5d647683672ffd0080441f4e8b4345934c44cc61",
+    "license": "apache-2.0",
+    "files": [
+      "checkpoint-1688/model.safetensors",
+      "checkpoint-2250/model.safetensors",
+      "checkpoint-3376/model.safetensors",
+      "model.safetensors"
+    ]
+  },
+  "mo-thecreator/Deepfake-audio-detection": {
+    "revision": "e4d9874b493362149cec96ced85f00b00b1a04c0",
+    "license": "apache-2.0",
+    "files": [
+      "model.safetensors"
+    ]
+  },
+  "Systran/faster-whisper-small": {
+    "revision": "536b0662742c02347bc0e980a01041f333bce120",
+    "license": "mit",
+    "files": []
+  }
+}

@@ -1,0 +1,33 @@
+name: CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - run: python -m ruff check .
+      - run: python -m pytest -m 'not models' -q
+        env:
+          RIDSCA_MODE: baseline
+  container:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t ridsca:test .
+      - run: |
+          docker run -d --name ridsca -p 7860:7860 -e RIDSCA_MODE=baseline ridsca:test
+          for i in $(seq 1 30); do
+            if curl --fail http://localhost:7860/_stcore/health; then exit 0; fi
+            sleep 2
+          done
+          docker logs ridsca
+          exit 1

@@ -1,0 +1,12 @@
+{"id":"s1","group":"otp","label":"scam","text":"Send your OTP immediately to keep your account active."}
+{"id":"s2","group":"remote","label":"scam","text":"Install AnyDesk so I can repair your bank account."}
+{"id":"s3","group":"fee","label":"scam","text":"Pay the processing fee to release your prize."}
+{"id":"s4","group":"investment","label":"scam","text":"We offer guaranteed returns and double your money."}
+{"id":"s5","group":"apk","label":"scam","text":"Download verify.apk to update bank KYC."}
+{"id":"s6","group":"otp-hi","label":"scam","text":"अपना ओटीपी भेजें।"}
+{"id":"g1","group":"advice","label":"genuine","text":"Never share your OTP. Protect your bank account."}
+{"id":"g2","group":"receipt","label":"genuine","text":"Your payment receipt is available in the official app."}
+{"id":"g3","group":"appointment","label":"genuine","text":"Your branch appointment is tomorrow at 10 am."}
+{"id":"g4","group":"security-reminder","label":"genuine","text":"Do not send your password to anyone."}
+{"id":"g5","group":"greeting","label":"genuine","text":"Thank you for visiting our branch."}
+{"id":"g6","group":"statement","label":"genuine","text":"Your monthly statement is ready. Open the app you normally use."}

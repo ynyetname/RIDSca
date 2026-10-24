@@ -1,0 +1,19 @@
+[server]
+headless = true
+address = "0.0.0.0"
+port = 7860
+maxUploadSize = 20
+enableXsrfProtection = true
+enableCORS = true
+disconnectedSessionTTL = 60
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#167D65"
+backgroundColor = "#F6F8F6"
+secondaryBackgroundColor = "#EAF0EC"
+textColor = "#182B25"
+font = "sans serif"

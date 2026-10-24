@@ -1,0 +1,6 @@
+[
+ {"name":"OTP + urgency", "text":"Your bank account will be blocked within 10 minutes. Send your OTP to complete urgent verification."},
+ {"name":"APK installation", "text":"Download bank-verify.apk to update your KYC immediately. https://bank-verification.example/verify.apk"},
+ {"name":"Legitimate safety reminder", "text":"Bank safety reminder: never share your OTP or PIN. Use the official app to review your account."},
+ {"name":"Hindi credential request", "text":"आपका खाता बंद होने वाला है। अपना ओटीपी भेजें और तुरंत सत्यापन करें।"}
+]

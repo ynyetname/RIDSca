@@ -1,14 +1,3 @@
----
-title: RIDSca
-emoji: 🛡️
-colorFrom: green
-colorTo: blue
-sdk: docker
-app_port: 7860
-license: mit
-short_description: Evidence-first scam triage with local open models
----
-
 # RIDSca — check before you trust
 
 **Risk Intelligence & Detection for Scams · Team SCAMURAI · IIT Roorkee**
